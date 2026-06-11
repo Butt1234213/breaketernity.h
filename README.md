@@ -1,11 +1,13 @@
-# breaketernity.h
-breaketernity.h is a port of breaketernity.js by Patashu to C++
+# break_eternity.h
+break_eternity.h is a port of break_eternity.js by Patashu to C++
+
+https://github.com/Patashu/break_eternity.js/
 
 # How to install
 + Download the latest release in the releases section, and add the files to your C++ project
 + MAKE SURE YOU PUT THESE AT THE TOP OF YOUR FILE
-- #include "breaketernity.h"
-- #include "breaketernity.cpp"
+- #include "break_eternity.h"
+- #include "break_eternity.cpp"
 + All done!
 
 # Four primary constructors
