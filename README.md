@@ -1,5 +1,5 @@
 # breaketernity.h
-breaketernity.h is a port of breaketernity.js to C++
+breaketernity.h is a port of breaketernity.js by Patashu to C++
 
 # How to install
 + Download the latest release in the releases section, and add the files to your C++ project
