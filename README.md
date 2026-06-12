@@ -111,7 +111,7 @@ static Decimal minabs(Decimal a, Decimal b);
 static Decimal clamp(Decimal a, Decimal b, Decimal c);
 
 + a = b
-+ 
+
 static bool eq(Decimal a, Decimal b);
 
 static bool equal(Decimal a, Decimal b);
