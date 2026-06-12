@@ -3,28 +3,28 @@ break_eternity.h is a port of break_eternity.js by Patashu to C++
 
 https://github.com/Patashu/break_eternity.js/
 
-# How to install
+## How to install
 + Download the latest release in the releases section, and add the files to your C++ project
 + MAKE SURE YOU PUT THESE AT THE TOP OF YOUR FILE
 - #include "break_eternity.h"
 - #include "break_eternity.cpp"
 + All done!
 
-# Four primary constructors
+## Four primary constructors
 
 + Decimal x = Decimal(), returns {sign: 0, layer: 0, mag: 0}
 + Decimal x = Decimal(any numeric type a), returns {sign: a's sign, layer: a's layer, mag: a's mag}
 + Decimal x = Decimal(int a, unsigned long b, double c), returns {sign: a, layer: b, mag: c}
 + Decimal x = Decimal(std::string a), returns {sign: a's sign, layer: a's layer, mag: a's mag}
 
-# How to call functions
+## How to call functions
 
 + In your .cpp file, just put Decimal::whatever(args), and it will call the function! ✅✅✅✅✅✅✅
 
 If you want to see some test breaketernity.h calls, compile examples.cpp and look at my awesome math 🥰
 
 I'm just gonna copy-paste the methods
-# Utilities
+## Utilities
 + pointer manipulation
   
 static Decimal fromPtr(Decimal* a);
@@ -45,7 +45,7 @@ static float toFloat(Decimal a);
 
 static double d_maglog10(double a);
 
-# Comparisons
+## Comparisons
 + -a
 
 static Decimal neg(Decimal a);
@@ -154,7 +154,7 @@ static Decimal inverse(Decimal a);
 
 static Decimal invert(Decimal a);
 
-# Operations
+## Operations
 + a + b
 
 static Decimal add(Decimal a, Decimal b);
